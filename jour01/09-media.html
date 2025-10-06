@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ajouter des images dans une page html</h1>
+
+    <!-- img permet d'ajouter des images 
+     ET cette balise est une balise orpheline 
+     elle contient 2 attributs
+     src="" source 
+     alt="" texte alternatif 
+     appeler des fichiers images qui sont HORS du fichier html dans lequel vous êtes entrain d'écrire -->
+    <img alt="portrait de mario" src="mario.jpg" width="400">
+
+    <h2>image qui n'est pas dans la même dossier</h2>
+    <img src="img/oeil.jpg" alt="" width="400">
+    <!-- si l'image est dans un dossier différent celui du fichier encours d'édition alors il faudra le préciser dans l'attribut src="dossier/nom_fichier.jpg" -->
+
+    <h2>utiliser une image qui est sur internet</h2>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sega-Master-System-Set.png/1024px-Sega-Master-System-Set.png" alt="" width="400">
+
+    <h2>image placeholder</h2>
+
+    <figure>
+        <img src="https://placehold.co/420x122" alt="">
+    </figure>
+    <figure>
+        <img src="https://placehold.co/420x122?text=portrait jeune homme" alt="">
+    </figure>
+
+    <img src="https://this-person-does-not-exist.com/img/avatar-gen8846b7ee229489e8d210ad1f628f46d8.jpg" alt="">
+
+    <h2>icone</h2>
+
+    <p>⚠️ Attention !!! il faut cliquer ici !!!! </p>
+    <!-- image vectoriel svg -->
+    <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+  <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.15.15 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.2.2 0 0 1-.054.06.1.1 0 0 1-.066.017H1.146a.1.1 0 0 1-.066-.017.2.2 0 0 1-.054-.06.18.18 0 0 1 .002-.183L7.884 2.073a.15.15 0 0 1 .054-.057m1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767z"/>
+  <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z"/>
+</svg> Attention !!!! </p>
+
+
+    <h2>iframe qui permet ajouter des video Youtube</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yU20m38Kwgw?si=Phln52PJJxzwqBkS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
