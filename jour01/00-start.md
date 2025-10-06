@@ -48,7 +48,16 @@ infra
 Le programme :
 
 
-1ère semaine => Cahier des Charges / Création de Maquette (Figma) / html /css
+1ère semaine 
+
+Programme de la semaine :
+
+- cahier des charges 
+- Création de Maquette (Figma) 
+- html / css
+
+
+
 			=> support sour forme de site internet 
             => https://formation.webdevpro.net/html-css/
             
