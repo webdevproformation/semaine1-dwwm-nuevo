@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- créer un formulaire qui contient 3 champs 
+        prénom 
+        nom 
+        zone de commentaire dans laquelle il peut expliquer son besoin
+        ET un bouton pour soumettre sa demande  
+    -->
+        <h1>Nous contacter </h1>
+        <p>Pour toutes demandes, veuillez compléter le formulaire ci-dessous : </p>
+        <form action="" method="GET">
+            <!-- balise qui dit au navigateur web 
+             ATTENTION cette zone contient de champs de formulaire à regrouper 
+             action="" donner l'adresse du script php / javascript qui va traiter le formulaire 
+             method="" le mode de transfert des informations POST / GET 
+             manière dont les informations vont être ajouter dans le requête HTTP
+             -->
+            <div>
+                <label for="prenom">Votre prénom :</label>
+                <input type="text" name="prenom" id="prenom">
+            </div>
+            <div>
+                <label for="nom">Votre nom :</label>
+                <input type="text" name="nom" id="nom">
+            </div>
+            <div>
+                <label for="sujet">Saisir votre demande :</label> <br>
+                <textarea name="sujet" id="sujet"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer la demande">
+            </div>
+        </form>
+</body>
+</html>
