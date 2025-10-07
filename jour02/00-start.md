@@ -34,14 +34,17 @@ Et chacune va être découpée en 4 sous compétence
             - réclamation 
     - Question Réponse 5 min 
 
-AVANT le jury 
+---
+
+# AVANT le jury :
 
 - Cahier des charges 
-- REAC DP Dossier Professionnel => https://www.dossierprofessionnel.fr/
-- https://integration.afpa.net/res/1-Dossier_professionnel_version_manuscrite.pdf
+- REAC DP Dossier Professionnel => <https://www.dossierprofessionnel.fr/>
+- <https://integration.afpa.net/res/1-Dossier_professionnel_version_manuscrite.pdf>
 - présentation ppt 
 
+---
 
-Exemple de rendu disponible sur github :
+# Exemple de rendu disponible sur github :
 
 https://github.com/ElBernie/dossiers-titre-professionnel-DWWM
