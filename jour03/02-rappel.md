@@ -1,5 +1,6 @@
 # html
 
+```txt
 - balise de texte 
     - <h1> titre principal <h2> titre secondaire
     - <p> paragraphe
@@ -20,4 +21,4 @@
 
 - lien hypertexte => <a href=""></a>
 - balise de zoning des pages html <div> <article> <section> <header> <footer> <aside> <address> <nav>
-                            
+```                     
