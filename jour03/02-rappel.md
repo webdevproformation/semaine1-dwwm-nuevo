@@ -21,4 +21,5 @@
 
 - lien hypertexte => <a href=""></a>
 - balise de zoning des pages html <div> <article> <section> <header> <footer> <aside> <address> <nav>
+- https://buzut.net/101-balises-html5-exemples/
 ```                     
