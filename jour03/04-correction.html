@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="04-style.css">
+</head>
+<body>
+    <header>
+        <h1>Module 1 - Quelques citations</h1>
+        <p>Découverte des citations en HTML.</p>
+    </header>
+    
+    <h2>Présentation</h2>
+
+    <h3>Le langage HTML permet de gérer les citations de 2 manières différentes</h3>
+
+    <ul>
+        <li>Citer une phrase ou un terme (en ligne) au sein d'un paragraphe: utilisation de l'élément inline &lt;q> ; dans ce cas, le texte est en italique (par défaut).</li>
+        <li>Pour une citation plus longue ou pour un extrait complet d'un document : utilisation de l'élément &lt;blockquote> ; dans ce cas, le texte est indenté (par défaut).</li>
+    </ul>
+
+    <h3>Pour ajouter indiquer la source de la citation, on utilisera</h3>
+
+    <ul>
+        <li>L'élément &lt;cite> à l'intérieur de l'élément &lt;blockquote> pour y mettre le titre de la source (titre de l'oeuvre).</li>
+        <li>L'attribut &lt;cite> dans l'élément &lt;q> pour y mettre la référence vers la source (une URL vers une page Web).</li>
+    </ul>
+    <p>Par ailleurs, la langue de la citation peut être spécifiée avec l'attribut lang.</p>
+
+    <h2>Citations courte (en ligne)</h2>
+
+
+    <p>Une citation de Marlène Dietrich en anglais: <q>In language gender is particularly confusing. Why, please, should a table be male in German, female in French, and castrated in English?</q> et en français: <q>En langue, le genre est particulièrement déroutant. Pourquoi, s'il vous plaît, une table devrait-elle être masculine en allemand, féminine en français et castrée en anglais ?</q></p>
+
+    <h2>Citation longue (bloc)</h2>
+
+    <blockquote>
+        La <b>dictature parfaite</b> : une dictature qui aurait les apparences de la démocratie, une prison sans murs dont les prisonniers ne songeraient pas à s'évader. Un système d'esclavage où, grâce la consommation et au divertissement, les esclaves auraient l'amour de leur servitude.
+    </blockquote>
+
+    <blockquote>
+        Un <b>État totalitaire</b> vraiment efficient serait celui dans lequel le tout-puissant comité exécutif des chefs politiques et leur armée de directeurs auraient la haute main sur une population d'esclaves qu'il serait inutile de contraindre, parce qu'ils auraient l'amour de leur servitude. <br>
+        La leur faire aimer - telle est la tâche assignée dans les Etats totalitaires d'aujourd'hui aux ministères de la propagande, aux rédacteurs en chef des journaux, et aux maîtres d'école.
+    </blockquote>
+
+    <p class="last"><a href="https://fr.wikipedia.org/wiki/Le_Meilleur_des_mondes" target="_blank">Le meilleur des mondes</a> Aldous Huxley</p>
+
+</body>
+</html>

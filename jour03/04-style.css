@@ -1,0 +1,61 @@
+/*reset*/
+
+body, h1, h2, h3 , p {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/*fin reset*/
+
+/* mise en page de la zone d'en tête */
+
+header {
+    border: 1px solid orangered;
+    background: #ccc;
+    padding:2em 0;
+    text-align: center;
+}
+
+h1{
+    color : orangered;
+    margin-bottom: 0.5em;
+}
+
+/* mise en page de la partie principale de la page */
+
+h2{
+    font-size: 2rem;
+    margin:0.75em 0; 
+}
+
+h3{
+    font-size: 1.7rem;
+    margin:0.75em 0; 
+    color: #555; 
+}
+
+p , blockquote {
+    margin:0.75em 0; 
+    color: #555; 
+}
+
+li{
+    color: #555; 
+}
+
+blockquote , .last{
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+}
+
+q, blockquote{
+ font-style: italic;
+}
+
+b{
+    color: #000; 
+}
