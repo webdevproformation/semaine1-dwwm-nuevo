@@ -1,0 +1,84 @@
+/* commentaire en css  */
+
+/* 
+reset => mise à zéro
+enlever les espacements par défaut de toutes les balises html
+faire que TOUS les textes n'aient pas de pattes (sans serif)
+*/
+
+/* pour les balises body, h1 et label de la page html 
+sélecteur
+*/
+body , h1 , label {
+    margin:0 ;  /* 0px en marge externe */
+    padding: 0; /* 0px en marge interne */
+}
+
+body{
+    font-family: sans-serif; /* je ne veux plus de pattes sur les textes */
+}
+
+/* faire la mise en forme 
+du titre principal 
+*/
+
+h1{
+    text-align: center; /* texte soit centré*/
+    text-decoration: underline; /* souligné */
+    font-size: 18px ; /* réduire la taille de la police de caractère */
+    margin-top:  0.5em ; /* 18px * 0.5 = 9px */
+    margin-bottom: 0.5em ; /* 18px * 0.5 = 9px */
+}
+
+/* faire la mise en forme 
+du formulaire
+*/
+
+form{
+    width: 400px;  /* center le formulaire  */
+    margin:0 auto; /* center le formulaire  */
+    /* couleur => combinaison de 3 couleurs primaires Rouge Vert Bleu
+    0 et F */
+    background:#09F;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 0.5em ;
+    padding-bottom: 0.5em;
+}
+
+/* dans la balise formulaire, tu vas sélectionner l'ensemble des div (dedans)*/
+/* faire ensorte que les élements du formulaire soient bien alignés verticalement */
+form div {
+    display: flex; 
+    align-items: center;
+    margin-top:0.5em ;
+    margin-bottom: 0.5em ;
+}
+
+form div > label {
+    width:130px; 
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"], input[type="reset"]
+{
+    cursor: pointer;
+    padding: 0.5em 0.8em;
+    border:1px solid #000 ; 
+    border-radius: 0.5em;
+}
+
+input[type="submit"]{
+    background: #090;
+    color : #FFF ;
+    margin-right: 0.5em;
+}
+
+input[type="reset"]{
+    background: #00F;
+    color : #FFF;
+}

@@ -3,12 +3,10 @@
 if(isset($_POST["envoyé"])){
 
     // récupérer les données 
-
     [
         "nom" => $nom ,
         "message" => $message,
         "email" => $email
-
     ] = $_POST ;
 
     // vérification 
@@ -17,10 +15,9 @@ if(isset($_POST["envoyé"])){
         $verif[] = "nb caractère message est trop faible !!" ;
     }
 
+    
     if(count($verif) === 0 ){
-
-        mail();
-
-        // INSERT INTO .... 
+        mail("", "", "");
+        // INSERT INTO ....
     }
 }

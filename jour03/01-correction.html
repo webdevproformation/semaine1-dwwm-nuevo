@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- balise html va appeler un fichier externe = fichier css 
+    CSS Cascading Style Sheet (feuille de style) 
+    -->
+    <link rel="stylesheet" href="01-style.css">
+</head>
+<!-- structure de la page -->
+<body>
+    <h1>Project Management</h1><!-- titre principal -->
+    <form action=""> <!-- formulaire -->
+        <div>
+            <label for="name">Project Name</label>
+            <input type="text" name="name" id ="name">
+        </div>
+        <div>
+            <label for="to">Assigned to</label>
+            <select name="to" id="to"><!-- menu déroulant -->
+                <option value="">sélectionner</option>
+                <option value="1">collaborateur 1</option>
+                <option value="2">collaborateur 2</option>
+                <option value="3">collaborateur 3</option>
+            </select>
+        </div>
+        <div>
+            <label for="dt_start">Start Date</label>
+            <input type="date" name="dt_start" id="dt_start">
+        </div>
+        <div>
+            <label for="dt_end">Start End</label>
+            <input type="date" name="dt_end" id="dt_end">
+        </div>
+        <div>
+            <label for="priority">Priority</label>
+            <label for="high">
+                <input type="radio" name="priority" id="high">
+                High
+            </label>
+            <label for="average">
+                <input type="radio" name="priority" id="average">
+                Average
+            </label>
+            <label for="low">
+                <input type="radio" name="priority" id="low">
+                Low
+            </label>
+        </div>
+        <div>
+            <label for="description">Description</label>
+            <textarea name="description" id="description" rows="5"></textarea>
+            <!-- zone où on peut écrire -->
+        </div>
+        <div class="btns">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
+
+<!-- 
+malik.h@webdevpro.net
+-->
