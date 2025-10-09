@@ -1,0 +1,30 @@
+/* voici comment faire un commentaire en css */
+
+/*
+selecteur {
+    propriété:valeur ;
+    propriété:valeur ; 
+}
+
+*/
+
+h1{
+    border:1px solid blue; 
+    font-size: 70px;
+}
+
+/* div{
+    border:1px dashed red ; 
+    margin: 20px 0;
+} */
+  /* espacement !*/
+
+/* input{
+    background: green;
+} */
+
+/* toutes balises qui ont l'attribut class="btn-submit" */
+.btn-submit{
+    background-color: green;
+
+}
