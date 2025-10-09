@@ -8,9 +8,17 @@ selecteur {
 
 */
 
+body{
+    font-family: sans-serif;
+    /* je fais en sorte QUE TOUTES LES BALISES qui contiennent du texte n'ont plus de police de caractère avec patte */
+}
+
 h1{
-    border:1px solid blue; 
-    font-size: 70px;
+    /* border:1px solid blue; 
+    font-size: 70px; */
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
 }
 
 /* div{
@@ -26,5 +34,38 @@ h1{
 /* toutes balises qui ont l'attribut class="btn-submit" */
 .btn-submit{
     background-color: green;
+    color : white ; 
+    border: none ; 
+    border-radius: 5px;
+    padding : 5px 10px  ; /* mettre la margin intérieur de 5px en haut en bas et 10 px à gauche et à droite */
+    cursor: pointer;
+}
 
+.btn-submit:hover{
+    scale: 1.2; /* 120% */
+}
+
+.btn-reset{
+    background-color: blue;
+    color : white;
+    border:none;
+    border-radius: 5px;
+    padding : 5px 10px  ;
+    cursor: pointer;
+}
+
+.form-box{
+    width: 400px;
+    margin:0 auto; 
+    background: aqua;
+    padding: 15px 10px;
+}
+
+.form-box > div{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+label{
+    width: 130px;
 }
