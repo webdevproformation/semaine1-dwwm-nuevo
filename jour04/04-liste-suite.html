@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        dans les textes 
+        lorem => texte de rempliçage 
+        br  break saut de ligne 
+        b bold gras
+        i italic 
+        span sélectionner des mots dans un texte pour ensuite les mettre en format avec css 
+        small
+        big
+    -->
+        <p><big>Lorem</big> ipsum, dolor <br> sit amet <b>consectetur adipisicing</b> elit. <i>Maxime sunt</i> exercitationem <span>provident unde</span>, quia ipsam?</p>
+
+        <h2>Lorem <big>ipsum</big> <small>dolor sit</small>.</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quis provident temporibus, est, possimus maxime, perspiciatis necessitatibus quaerat iusto voluptate adipisci deleniti minima incidunt quia quod. Nostrum consectetur dolor ipsa.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis assumenda repellat nihil expedita dignissimos at dolores quod ut ducimus omnis!</p>
+
+        <h2>formulaire</h2>
+
+        <!-- formulaire d'inscription 
+            civilité Homme ou une Femme (choix unique)
+            prenom
+            email 
+            choisir ville de naissance : Paris / Lyon / Marseille (menu déroulant)
+            aime : PHP / JS / HTML (choix multiples)
+            champ de commentaire 
+            bouton soumettre le formulaire (valider)
+        -->
+        <form>
+            <div>
+                <!-- 1ère zone du formulaire 
+                 civilité Homme ou une Femme (choix unique)
+                -->
+                <label for="">Civilité</label>
+                <label for="">
+                    <input type="radio" name="civilite">
+                    Homme
+                </label>
+                <label for="">
+                    <input type="radio" name="civilite">
+                    Femme
+                </label>
+            </div>
+            <div>
+                <!-- 2ème zone -->
+                <label for="">Prénom</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">email</label>
+                <input type="email"><!-- champ qui verifie que la personne a remplir un texte qui ressemble à un email -->
+            </div>
+            <div>
+                <label for="">ville de naissance</label>
+                <select name="" id="">
+                    <option value="">sélectionner une ville</option>
+                    <option value="">Paris</option>
+                    <option value="">Lyon</option>
+                    <option value="">Marseille</option>
+                </select>
+            </div>
+            <div>
+                <label for="">vous aimez ???</label>
+                <label for="">
+                    <input type="checkbox" name="aimer">
+                    PHP
+                </label>
+                <label for="">
+                    <input type="checkbox" name="aimer">
+                    JS
+                </label>
+                <label for="">
+                    <input type="checkbox" name="aimer">
+                    HTML
+                </label>
+            </div>
+            <div>
+                <label for="">un commentaire ?</label>
+                <textarea name="" id=""></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer la réponse">
+            </div>
+        </form>
+        
+</body>
+</html>
