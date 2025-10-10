@@ -1,0 +1,54 @@
+.first{
+    color : blue; 
+}
+
+/* .dernier{
+    color : green; 
+} */
+/* sélectionner le dernier p de la page */
+p:last-of-type{
+    color:green; 
+}
+
+/* .second{
+    color : red;
+} */
+ /* sélectionner le 2ème p de la page */
+p:nth-of-type(2)
+{
+    color : red;
+}
+
+/*
+mettre le 1er li de la page en bleu
+le dernier li de la page en vert 
+le 3eme li en rouge 
+*/
+
+/* li:nth-of-type(1){
+    color : blue;
+} */
+
+/* #info{
+    color : blue;
+} */
+
+li:first-of-type{
+    color : blue;
+}
+
+/* .last{
+    color: green;
+} */
+
+li:last-of-type{
+    color:green; 
+}
+
+/* .troisieme{
+    color :red;
+} */
+
+li:nth-of-type(3){
+    color : red; 
+}
