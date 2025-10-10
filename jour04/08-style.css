@@ -69,3 +69,19 @@ h1{
 label{
     width: 130px;
 }
+
+.input-frm{
+    width: 150px;
+    box-sizing: border-box; /* espacement dans la mise en page */
+}
+
+.textarea-frm{
+     width: 250px;
+     height: 80px;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    gap:20px; 
+}
