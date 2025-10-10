@@ -1,0 +1,105 @@
+/* importer les polices de caractères */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* reset : remise à zero / enlever les styles par défaut */
+
+body, h1, h2, p {
+    margin: 0;  /* marge externe */
+    padding: 0; /* marge interne */
+}
+
+ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none; /*enlever le soulignement des liens */
+    color: inherit ;  /* je veux que la couleur par défaut des liens soit la couleur par défaut de la page : noir */
+}
+
+/*  appliquer à toutes les balises qui contiennent du texte la police de caractère Roboto */
+body{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* mise en page 
+centre le design
+*/
+
+body{
+    background-color: #bbb;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* style entête de la page */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: greenyellow;
+    padding:20px 15px;
+}
+
+.header-menu{
+    display: flex;
+    gap:20px;
+}
+
+.header-link{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+/* partie centrale de la page */
+
+main{
+    background-color: white;
+    padding: 20px 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.article-img{
+    float: left ;
+    margin-right: 1em;
+}
+
+article p {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+article {
+    margin-bottom: 2em;
+}
+
+.article-footer{
+    text-align: right;
+}
+
+.article-btn{
+    background: greenyellow;
+    padding: 0.7em 0.9em;
+    font-size: 1.1rem;
+}
+
+article li{
+    list-style: disc;
+    margin-left: 2em;
+}
+
+.article-title{
+    margin-bottom: 1em;
+}
