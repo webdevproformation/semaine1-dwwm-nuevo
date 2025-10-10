@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+pour le 1er p de la page
+couleur de texte bleue
+*/
+
+p:first-of-type{
+    /* mot clé blue*/
+    color : blue ;
+    
+    /* donner sa valeur en RGB
+        R Rouge (Red) 0 - 255 - 0 - 9 A-F
+        G Vert  (Green) 0 - 255
+        B Bleu  (Blue)  0 - 255
+    */
+    color : rgb(0,0,255); 
+    color : rgb(0,0,0); 
+    color : rgb(255,255,255); 
+    color : rgb(0,120,250); 
+
+    color : #000; 
+    color : #00F; 
+    color : #FFF; /* valeur hexadecimale */
+    color : #036487; 
+
+    /* couleur avec de l'opacité de 50% */
+    color : rgba( 0,0,255 , 0.5 ); 
+}
+
+/* html{
+    font-size: 44px;
+} */
+div{
+    font-size: 12px;
+}
+
+p:nth-of-type(2){
+    font-size: 22px ;
+    font-size: 80%; /* 16px * 0.8 = 12.8px */
+    font-size: 120%;
+    font-size: 1rem ; /* unité relative par rapport à la taille de police par défaut de la page   */
+    font-size: 1.2em ;  /*  */
+}
+
+a{
+    font-size: 2em;
+}
+
+p:nth-of-type(3)
+{
+    /*
+        police avec patte : serif 
+        police sans patte : sans serif
+        police fantaisie 
+    */
+    font-family: Arial , Helvetica , sans-serif;
+}
+
+
+
+p:nth-of-type(4)
+{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+}
+
+p:last-of-type
+{
+    font-family: "Monsieur La Doulaise";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    color : green; 
+    text-decoration: underline;
+    text-shadow: 4px 4px 5px #000;
+    /*
+        ajouter une ombre portée sous le texte
+        1er chiffre décalage horizontal
+        2eme chiffre décalage vertical 
+        3eme chiffre diffusion / netteté 
+        dernière valeur couleur de l'ombre 
+    */
+    letter-spacing: 5px;
+}
+
+
+/*
+0 1 2 3 4 5 6 7 8 9 
+1 + 9 = 10 
+
+0 1 
+
+0 
+
+0 0 0 0 0 0 0 
+
+1 
+
+0 0 0 0 0 0 1
+
+2 
+
+0 0 0 0 0 1 0
+
+3 
+
+0 0 0 0 0 1 1
+
+4 
+
+0 0 0 0 1 0 0
+
+5 
+
+0 0 0 0 1 0 1
+
+1 + 4 
+
+0 0 0 0 0 0 1
+0 0 0 0 1 0 0
+0 0 0 0 1 0 1
+
+0 1 2 3 4 5 6 7 8 9 A B C D E F 
+
+1 
+
+0 0 0 0 0 0 1
+
+2 
+
+0 0 0 0 0 0 2
+
+3 
+
+0 0 0 0 0 0 3
+
+10 
+
+0 0 0 0 0 0 A
+
+*/
