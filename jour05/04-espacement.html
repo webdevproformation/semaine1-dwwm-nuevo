@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            border:1px solid blue;
+            margin:0; 
+        }
+        p:first-of-type{
+            /*margin externe*/
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+        p:nth-of-type(2)
+        {
+            padding-top: 10px;
+            padding-bottom: 30px;
+        }
+
+        /**/
+        p:last-of-type
+        {
+            /*marge externe de 15px au dessus 
+            margin à droite de 50px 
+            margin à gauche de 20px 
+            en base de 30px */
+            margin-top: 15px;
+            margin-right: 50px;
+            margin-left: 20px;
+            margin-bottom: 30px;
+            margin: 15px 50px 30px 20px ; /* shortcut */
+
+            padding-top : 12px;
+            padding-right: 33px;
+            padding-left: 6px;
+            padding-bottom: 66px;
+
+            padding: 12px 33px 66px 6px;
+
+            padding: 20px 30px ; /* (haut et bas) (gauche et droite) */
+            padding: 40px ;  /* (les 4 cotés en même temps ) */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, veniam.</p>
+    <p>Laudantium amet dolor dolorum reprehenderit possimus optio expedita magni qui.</p>
+    <p>Velit, expedita! Laborum, vero? Laborum adipisci doloribus amet earum ipsam.</p>
+    <p>Aspernatur eligendi incidunt, voluptatum accusantium reiciendis nisi distinctio nobis vitae?</p>
+</body>
+</html>

@@ -81,7 +81,7 @@ article p {
     text-align: justify;
 }
 
-article {
+article:first-of-type {
     margin-bottom: 2em;
 }
 
